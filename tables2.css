@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table ,th,td{
     border:1px,solid gray;
     text-align: center;
@@ -21,4 +22,29 @@ tr:nth-child(even){
 }
 tr:hover{
     color:black;
+=======
+table ,th,td{
+    border:1px,solid gray;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width:80%;
+    margin:50% auto;
+}
+th{
+    height: 20px;
+}
+td{
+    height: 40px;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+tr:nth-child(even){
+    background-color: green;
+}
+tr:hover{
+    color:black;
+>>>>>>> 6193fe14f945dabc9e8cb71b1c265b4e1772c379
 }
